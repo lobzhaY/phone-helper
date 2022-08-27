@@ -1,0 +1,22 @@
+nav {
+    width: 40%;
+    margin-right: 39px;
+}
+ul.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+.menu li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 6px;
+    color: #434343;
+}

@@ -1,0 +1,45 @@
+#modal-window-order {
+    max-width: 1012px;
+    height: 555px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.modal-window-order-image {
+    width: 415px;
+    height: 555px;
+}
+.order-image {
+    object-fit: contain;
+    object-position: center;
+}
+.modal-window-order-info {
+    margin-top: 18px;
+    margin-left: 26px;
+    margin-bottom: 53px;
+    margin-right: 63px;
+}
+.modal-window-order-title {
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #434343;
+    margin-bottom: 18px;
+}
+.modal-window-order-line {
+    width: 102px;
+    height: 7px;
+    background-color: #FFB400;
+    border: none;
+}
+.modal-window-order-text {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #434343;
+    margin-bottom: 10px;
+}

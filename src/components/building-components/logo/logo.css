@@ -1,0 +1,140 @@
+.logo-container {
+    width: 156px;
+    height: 154px;
+    margin-left: 120px;
+    margin: 50px auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.black-square {
+    margin-top: 26px;
+    width: 69.34px;
+    height: 69.34px;
+    border: 1.37786px solid #434343;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow-square {
+    width: 58.05px;
+    height: 58.05px;
+    border: 2px solid #FFB400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letters {
+    transform: rotate(-45deg);
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68.8928px;
+    line-height: 6px;
+    color: black;
+    color:#FFFFFF!important;
+    text-shadow:-0   -3px 0   #000000,
+    0   -3px 0   #000000,
+    -0    3px 0   #000000,
+    0    3px 0   #000000,
+    -3px -0   0   #000000,
+    3px -0   0   #000000,
+    -3px  0   0   #000000,
+    3px  0   0   #000000,
+    -1px -3px 0   #000000,
+    1px -3px 0   #000000,
+    -1px  3px 0   #000000,
+    1px  3px 0   #000000,
+    -3px -1px 0   #000000,
+    3px -1px 0   #000000,
+    -3px  1px 0   #000000,
+    3px  1px 0   #000000,
+    -2px -3px 0   #000000,
+    2px -3px 0   #000000,
+    -2px  3px 0   #000000,
+    2px  3px 0   #000000,
+    -3px -2px 0   #000000,
+    3px -2px 0   #000000,
+    -3px  2px 0   #000000,
+    3px  2px 0   #000000,
+    -3px -3px 0   #000000,
+    3px -3px 0   #000000,
+    -3px  3px 0   #000000,
+    3px  3px 0   #000000,
+    -3px -3px 0   #000000,
+    3px -3px 0   #000000,
+    -3px  3px 0   #000000,
+    3px  3px 0   #000000;
+}
+.text {
+    margin-top: 25px;
+    width: 106px;
+    height: 9px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.9061px;
+    line-height: 9px;
+    color: #434343;
+    text-align: center;
+}
+.text-hover {
+    animation-name: text;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-delay: 0.5s;
+}
+.letters-hover {
+    animation-name: letters;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.black-square-hover {
+    animation-name: black;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.yellow-square-hover {
+    animation-name: yellow;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes text {
+    0% {opacity: 0; font-size: 12px;}
+    100% {opacity: 1; font-size: 14.9061px;}
+}
+@keyframes letters {
+    0% {font-size: 68.8928px; }
+    12.5% {font-size: 67px;}
+    25% {font-size: 68px;}
+    37.5% {font-size: 67px;}
+    50% {font-size: 68.8928px;}
+    62.5% {font-size: 67px;}
+    75% {font-size: 68px;}
+    87.5% {font-size: 67px;}
+    100% {font-size: 68.8928px; }
+}
+@keyframes black {
+    0% {width: 69.34px; height: 69.34px; transform: rotate(45deg);}
+    25% {width: 68px; height: 68px; transform: rotate(90deg);}
+    50% {width: 70px; height: 70px; transform: rotate(135deg);}
+    75% {width: 68px; height: 68px; transform: rotate(180deg);}
+    100% {width: 69.34px; height: 69.34px; transform: rotate(225deg);}            
+}
+@keyframes yellow {
+    0% {width: 58.05px; height: 58.05px; transform: rotate(0deg);}
+    25% {width: 59px; height: 59px; transform: rotate(-45deg);}
+    50% {width: 57px; height: 57px; transform: rotate(-90deg);}
+    75% {width: 59px; height: 59px; transform: rotate(-135deg);}
+    100% {width: 58.05px; height: 58.05px; transform: rotate(-180deg);}
+}
