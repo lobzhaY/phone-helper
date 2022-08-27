@@ -1,0 +1,28 @@
+.phone-repair-brand-titel {
+    margin-left: 58px;
+    margin-bottom: 120px;
+}
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 119px;
+    color: #434343;
+}
+.phone-repair-brand-titel-hr {
+    width: 190px;
+    height: 7px;
+    border: none;
+    background-color: #FFB400;
+    margin-bottom: 18px;
+}
+.paragraph {
+    width: 707px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+}

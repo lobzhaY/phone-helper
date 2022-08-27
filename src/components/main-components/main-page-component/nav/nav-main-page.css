@@ -1,0 +1,99 @@
+.main-page-slider {
+    width: 100%;
+    height: 646px;
+    background-image: url(../img/nav-main-page/slider/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.main-page-slider-container {
+    width: 100%;
+    height: 100%;
+    background: rgba(67, 67, 67, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+.main-page-slider-info {
+    padding-top: 58px;
+    margin-left: 52px;
+}
+.main-page-slider-info h2 {
+    width: 482px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.main-page-slider-info p {
+    width: 485px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+.main-page-slider-info button {
+    width: 267px;
+    height: 46px;
+    background: #FFB400;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    color: #434343;
+}
+
+.main-page-slider-triangle {
+    
+    position: relative;
+}
+.triangle-top {
+    position: absolute;
+    top: 52px;
+    right: 572px;
+}
+.secong-tirangle {
+    position: absolute;
+    top: 170px;
+    right: 454px;
+}
+.bottom-triangle {
+    position: absolute;
+    top: 285px;
+    right: 572px;
+}
+
+.first-triangle {
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.nav-container {
+    position: relative;
+    margin-bottom: 82px;
+}
+.main-page-slider-nav {
+    position: absolute;
+    top: 567px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}

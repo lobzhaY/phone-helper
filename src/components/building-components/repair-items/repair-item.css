@@ -1,0 +1,22 @@
+.laptop-repair-info-item-polygon {
+    width: 322px;
+    height: 322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.laptop-repair-info-item-main-polygon-text {
+    width: 238px;
+    height: 166px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #434343;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

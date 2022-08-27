@@ -1,0 +1,38 @@
+.first-tirangle-color {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-tirangle-text {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-tirangle-container-text {
+    width: 140px;
+    height: 140px;
+    transform: rotate(-45deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first-tirangle-container-text img {
+    width: 42px;
+    height: 47px;
+}
+.first-tirangle-container-text p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+    text-align: center;
+}

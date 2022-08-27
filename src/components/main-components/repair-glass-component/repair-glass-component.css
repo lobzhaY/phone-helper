@@ -1,0 +1,225 @@
+.glass-replacement-titel {
+    margin-top: 7px;
+    margin-left: 113px;
+    float: left;
+}
+.glass-replacement-titel h2 {
+    width: 503px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #434343;
+    margin-bottom: 21px;
+}
+.glass-replacement-titel hr {
+    width: 501px;
+    height: 7px;
+    background-color: #FFB400;
+    border: none;
+}
+.glass-replacement-reasons {
+    margin-top: 44px;
+}
+
+.glass-replacement-reasons-container {
+    width: 1356px;
+    height: 855px;
+    margin: 0 auto;
+    position: relative;
+}
+.glass-replacement-reasosn-image {
+    position: absolute;
+    left: 351px;
+}
+.adress {
+    position: absolute;
+    top: 328px;
+    left: 250px;
+}
+.adress p span {
+    width: 264px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+}
+.adress p {
+    float: left;
+    margin-right: 12px;
+}
+.adress img {
+    margin-top: 15px;
+}
+.phone {
+    position: absolute;
+    top: 563px;
+}
+.phone p {
+    width: 354px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #434343;
+    margin-right: 40.58px;
+    float: left;
+}
+.phone img {
+    margin-top: 35px;
+}
+.glass {
+    position: absolute;
+    top: 205px;
+    right: 0px;
+}
+.glass img {
+    float: left;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.glass p {
+    width: 377px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+}
+.display {
+    position: absolute;
+    top: 544px;
+    right: 0px;
+}
+.display p {
+    width: 414px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434343;
+}
+.display img {
+    float: left;
+    margin-right: 29px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+.glass-replacement-process {
+    margin-top: 56px;
+}
+.process-container {
+    width: 1460px;
+    margin: 0 auto;
+}
+.process-container h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 89px;
+    color: #434343;
+    margin-bottom: 100px;
+}
+
+.process-instruction-01, .process-instruction-02 {
+    height: 209px;
+    display: flex;
+    align-items: center;
+}
+.process-instruction-container-01, .process-instruction-container-02 {
+    width: 672px;
+    height: 209px;
+    background: #EDEDEF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.process-instruction-container-02 {
+    text-align: right;
+}
+.process-01{
+    width: 180px;
+    height: 180px;
+    background: #434343;
+    margin-right: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .process-02 {
+    width: 180px;
+    height: 180px;
+    background: #434343;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 19px;
+ }
+ .process-01 img, .process-02 img {
+    width: 60px;
+    height: 101px;
+    object-fit: contain;
+    object-position: center;
+ }
+ .process-instruction-container-text-01, .process-instruction-container-text-02 {
+    width: 359px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+ }
+ .process-instruction-container-text-02 {
+    text-align: right;
+    margin-left: 64px;
+    margin-right: 14px;
+    width: 379px;
+ }
+ .process-instruction-01 img.process-instruction-icon {
+    margin-left: 250.6px;
+    margin-right: 23px;
+ }
+ .process-instruction-01 img.process-instruction-vector {
+    margin-right: 16px;
+ }
+ .process-instruction-02 img.process-instruction-vector {
+    margin-left: 22px;
+    margin-right: 22px;
+ }
+
+ .glass-replacement-button {
+    margin-top: 148px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+ }
+ .glass-replacement-button button {
+    width: 337px;
+    height: 64px;
+    background: #434343;
+    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+ }
