@@ -1,0 +1,287 @@
+.phone-repair {
+    background: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.phone-repair-title {
+    margin-left: 72px;
+    margin-bottom: 34px;
+}
+
+.container-title h2 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 119px;
+    text-transform: uppercase;
+    color: #434343;
+}
+
+.container-title hr {
+    width: 635px;
+    height: 7px;
+    background-color: #FFB400;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.container-title p {
+    width: 575px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+
+}
+
+.phones-repair-lists {
+    margin-left: 32px;
+    margin-bottom: 74px;
+    height: 275px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #434343;
+    position: relative;
+}
+
+.phones-repair-lists .triangle {
+    margin-top: 34px;
+    width: 112.43px;
+    height: 112.43px;
+    transform: rotate(45deg);
+    box-shadow: -4px -4px 2.97828px 0.744569px #FFB400;
+    border: 2.97828px solid #434343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phones-repair-lists .triangle:visited {
+    box-shadow: 4px 4px 2.97828px 0.744569px #434343;
+}
+.phones-repair-lists .triangle:visited p.model-triangle-text{
+    color: #FFB400;
+}
+.phones-repair-lists .triangle:hover p.model-triangle-text {
+    color: #FFB400;
+    font-size: 27px;
+}
+.phones-repair-lists .triangle:active {
+    box-shadow: 4px 4px 2.97828px 0.744569px #434343;
+    
+}
+
+
+
+
+p.model-triangle-text {
+    transform: rotate(-45deg);
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #434343;
+
+}
+
+.phone-repair-oppo {
+    position: absolute;
+    top: 91px;
+}
+
+.phone-repair-iphone {
+    position: absolute;
+    left: 96px;
+}
+
+.phone-repair-realme {
+    position: absolute;
+    left: 190px;
+    top: 91px;
+}
+
+.phone-repair-samsung {
+    position: absolute;
+    left: 284px;
+}
+
+.phone-repair-sony {
+    position: absolute;
+    left: 378px;
+    top: 91px;
+}
+
+.phone-repair-xiaomi {
+    position: absolute;
+    left: 472px;
+}
+
+.phone-repair-nokia {
+    position: absolute;
+    left: 566px;
+    top: 91px;
+}
+
+.phone-repair-huawei {
+    position: absolute;
+    left: 660px;
+}
+
+.phone-repair-asus {
+    position: absolute;
+    left: 754px;
+    top: 91px;
+}
+
+.phone-repair-honor {
+    position: absolute;
+    left: 848px;
+}
+
+.phone-repair-blackberry {
+    position: absolute;
+    left: 942px;
+    top: 91px;
+}
+
+.phone-repair-meizu {
+    position: absolute;
+    left: 1036px;
+}
+
+.phone-repair-google {
+    position: absolute;
+    left: 1130px;
+    top: 91px;
+}
+
+.phone-repair-lg {
+    position: absolute;
+    left: 1224px;
+}
+
+.phone-repair-motorola {
+    position: absolute;
+    left: 1318px;
+    top: 91px;
+}
+
+.phone-repair-oneplus {
+    position: absolute;
+    left: 1412px;
+}
+
+.phone-repair-poco {
+    position: absolute;
+    left: 1506px;
+    top: 91px;
+}
+
+.phone-repair-vivo {
+    position: absolute;
+    left: 1600px;
+}
+
+.phone-repair-blackview {
+    position: absolute;
+    left: 1694px;
+    top: 91px;
+}
+
+
+.phone-repair-main-img {
+    height: 228px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top: 7px solid #FFB400;
+    border-bottom: 7px solid #434343;
+    margin-bottom: 114px;
+}
+
+.phone-repair-info {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-repair-item {
+    box-sizing: border-box;
+    width: 351px;
+    height: 361px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.phone-repair-item img {
+    position: absolute;
+    top: -40px;
+}
+
+.phone-repair-item h3 {
+    width: 292px;
+    margin-top: 61px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #434343;
+    margin-bottom: 12px;
+}
+
+.phone-repair-item p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #434343;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.info-garanty h3,
+.info-work h3 {
+    margin-bottom: 40px;
+}
+
+.phone-repair-button {
+    margin-top: 74px;
+    margin-bottom: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-repair-button h2 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #434343;
+    margin-bottom: 45px;
+}

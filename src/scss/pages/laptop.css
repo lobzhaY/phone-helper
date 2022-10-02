@@ -1,0 +1,229 @@
+.tablet-repair {
+    background: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+.tablet-repair-title {
+    margin-left: 79px;
+    margin-top: 6px;
+    margin-bottom: 35px;
+}
+.container-title h2 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 119px;
+    text-transform: uppercase;
+    color: #434343;
+    margin-bottom: 21px;
+}
+.tablet-repair-title hr {
+    width: 650px;
+    height: 7px;
+    background-color: #FFB400;
+    border: none;
+    margin-bottom: 6px;
+}
+.tablet-repair-title p {
+    width: 841px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+}
+.tablet-repair-models {
+    width: 1530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 37px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #434343;
+}
+.tablet-repair-models .triangle {
+    margin-top: 34px;
+    width: 112.43px;
+    height: 112.43px;
+    transform: rotate(45deg);
+    box-shadow: -4px -4px 2.97828px 0.744569px #FFB400;
+    border: 2.97828px solid #434343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tablet-repair-models .triangle:active {
+    box-shadow: 4px 4px 2.97828px 0.744569px #434343;
+    
+}
+.tablet-repair-models .triangle:hover p.model-triangle-text {
+    color: #FFB400;
+    font-size: 27px;
+}
+.tablet-repair-models .triangle:visited {
+    box-shadow: 4px 4px 2.97828px 0.744569px #434343;
+}
+.tablet-repair-models .triangle:visited p.model-triangle-text{
+    color: #FFB400;
+}
+.tablet-repair-main-image {
+    width: 1920px;
+    height: 220px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 7px solid #FFB400;
+    border-bottom: 7px solid #434343;
+}
+
+.tablet-repair-info {
+    margin-top: 44px;
+}
+.tablet-repair-info-container {
+    width: 1590px;
+    margin: 0 auto;
+}
+.tablet-repair-info-item-odd, .tablet-repair-info-item-even {
+    display: flex;
+    align-items: center;
+    height: 230px;
+}
+.tablet-repair-info-item-odd .tablet-repair-info-item-text {
+    width: 602px;
+    margin-right: 17px;
+}
+.tablet-repair-info-item-odd .tablet-repair-info-item-text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: right;
+    color: #434343;
+    margin-bottom: 1px;
+}
+.tablet-repair-info-item-odd .tablet-repair-info-item-text p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: right;
+    color: #434343;
+}
+.tablet-repair-info-item-odd img {
+    margin-right: 15px;
+}
+.tablet-repair-info-item-odd .tablet-repair-info-item-img {
+    box-sizing: border-box;
+    width: 214px;
+    height: 214px;
+    border: 10px solid #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 66px;
+}
+.tablet-repair-info-item-img-border {
+    width: 160px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablet-repair-info-item-img-border img {
+    margin: 0;
+}
+.tablet-repair-info-item-num {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 148px;
+    text-align: center;
+    -webkit-text-stroke: 3px #434343;
+    color: white;
+}
+.tablet-repair-info-vector {
+    margin-left: 770px;
+}
+
+.tablet-repair-info-item-even .tablet-repair-info-item-num {
+    margin-right: 69px; 
+    margin-left: 500px;
+}
+.tablet-repair-info-item-even .tablet-repair-info-item-img {
+    box-sizing: border-box;
+    width: 214px;
+    height: 214px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 66px;
+    border: 10px solid #FFB400;
+    margin-right: 15px;
+}
+.tablet-repair-info-item-img-border img {
+    margin: 0 !important;
+}
+.tablet-repair-info-item-even img {
+    margin-right: 15px;
+}
+.tablet-repair-info-item-even .tablet-repair-info-item-text {
+    width: 602px;
+}
+.tablet-repair-info-item-even .tablet-repair-info-item-text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: left;
+    color: #434343;
+    margin-bottom: 5px;
+}
+.tablet-repair-info-item-even .tablet-repair-info-item-text p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: left;
+    color: #434343;
+}
+
+.tablet-repair-button {
+    width: 921px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.tablet-repair-button p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #434343;
+    margin-bottom: 45px;
+    margin-top: 81px;
+}
+.tablet-repair-button-class {
+    margin-bottom: 67px;
+}

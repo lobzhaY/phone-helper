@@ -1,0 +1,34 @@
+.orderButtonStyle {
+    width: 372px;
+    height: 79px;
+    background-color: #FFB400;
+    border-radius: 50px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #434343;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);  
+    cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+	overflow: hidden;
+}
+.orderButtonStyle:focus-visible {
+    box-shadow: 0 15px 20px #434343;
+}
+/* .orderButtonStyle:hover {
+	opacity: 0.88;
+} */
+.orderButtonStyle:active {
+	line-height: 83px;
+    opacity: 0.88;
+}
+.orderButtonStyle:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}

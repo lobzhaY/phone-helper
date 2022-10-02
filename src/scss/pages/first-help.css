@@ -1,0 +1,359 @@
+.first-help-section {
+    width: 1920px;
+    height: 2600px;
+    margin: 0 auto;
+    display: flex;
+}
+.first-help {
+    width: 493px;
+    height: 100%;
+    padding-top: 100px;
+}
+.first-help-container {
+    width: 450px;
+    margin: 0 auto;
+}
+.first-help-title {
+    width: 376px;
+    height: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.first-help-text {
+    width: 330px;
+    height: 600px;
+    border: 1px solid #434343;
+    margin-top: 23px;
+    z-index: 3;
+}
+.first-help-text h1 {
+    width: 274px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #434343;
+    padding-top: 124px;
+    margin: 0 auto;
+}
+.first-help-text img {
+    margin-top: 21px;
+    margin-left: 163px;
+    margin-bottom: 14px;
+}
+.first-help-title-container {
+    margin-top: 60px
+}
+.first-help-text p {
+    width: 310px;
+    height: 148px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #434343;
+    margin: 0 auto;
+}
+.first-help-images {
+    margin-top: 217px;
+    z-index: 2;
+    width: 450px;
+    height: 1058px;
+    object-fit: contain;
+    object-position: center;
+}
+.first-help-attention-container {
+    position: relative;
+    margin: 0 auto;
+    width: 376px;
+    
+}
+.first-help-attention {
+    width: 376px;
+    height: 391px;
+    background: #FFB400;
+    position: absolute;
+    top: 237px;
+    left: -23px;
+}
+.attention-text {
+    width: 330px;
+    height: 631px;
+    border: 1px solid #434343;
+    z-index: 4;
+    margin: 0 auto;
+    position: absolute;
+    top: -25px;
+}
+.attention-text h2 {
+    width: 190px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #434343;
+    margin-top: 123px;
+    margin-left: 65px;
+}
+.attention-text p {
+    width: 265px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #434343;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+.attention-text button {
+    width: 204.08px;
+    height: 50.1px;
+    background: #434343;
+    border-radius: 36.8382px;
+    border: none;
+    margin-left: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.1029px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.attention-text button:focus-visible {
+    box-shadow: 0 15px 20px #434343;
+}
+.attention-text button:hover {
+	opacity: 0.88;
+}
+.attention-text button:active {
+	line-height: 53px;
+}
+.attention-text button:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+
+.main-first-help-vector {
+    margin-left: -228px;
+    margin-bottom: 92px;
+    padding-top: 100px;
+}
+.horizon-vector-water {
+   padding-top: 222px;
+    margin-right: 12px;
+    float: left;
+}
+.vector-title {
+    position: relative;
+    top: 174px;
+    width: 751px;
+    margin-left: 300px;
+    border-left: 3px solid #434343;
+    height: 90px;
+    margin-right: 12px;
+    
+}
+.about-first-title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+ padding-left: 16px;
+}
+.about-first-text {
+    width: 751px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+    padding-left: 16px;
+}
+.water {
+    position: relative;
+    top: 81px;
+    margin-bottom: 86px;
+}
+.about-first-items {
+    width: 1252px;
+    margin-left: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-first-item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-title {
+    margin-bottom: 5px;
+}
+.item-title p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #434343;
+    color: white;
+}
+img.item-icon {
+    object-fit: contain;
+    object-position: center;
+}
+.item-vector {
+    margin-top: -15px;
+    margin-bottom: 8px;
+}
+.item-text {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #434343;
+}
+.horizon-vector-liquid {
+    margin-top: 126px;
+    float: left;
+}
+.vector-title-liquid {
+    position: relative;
+    top: 85px;
+    border-left: 3px solid #434343;
+    height: 90px;
+    margin-right: 12px;
+    margin-left: 300px;
+}
+.vector-title-liquid img.text-vector {
+    padding-top: 0;
+    margin-top: 85px;
+}
+
+.vector-title-liquid h3.about-first-title {
+    width: 905px;
+}
+.liquid {
+    position: relative;
+    top: 73px;
+    margin-bottom: 70px;
+}
+
+.horizon-vector-battery {
+    margin-top: 118px;
+    float: left;
+    margin-right: 12px;
+}
+.vector-title-battery {
+    position: relative;
+    top: 85px;
+    border-left: 3px solid #434343;
+    height: 90px;
+    margin-right: 12px;
+    margin-left: 300px;
+}
+.vector-title-battery h3.about-first-title {
+   padding-top: 15px;
+}
+.battery-info {
+    width: 1427px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 103px;
+}
+.about-first-items {
+    width: 1359px;
+    margin: 0 auto;
+}
+.first-item {
+    box-sizing: border-box;
+    width: 253px;
+    height: 142px;
+    border: 1px solid #434343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #434343;
+    padding: 5px;
+    margin-bottom: 14px;
+}
+.first-item-vector {
+    width: 1114px;
+    height: 90px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-left: 280px;
+    padding-right: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-text {
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 509px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #434343;
+}
+.battery-info .first-text {
+    margin-top: 37px;
+}
+
+.horizon-vector-os {
+    margin-top: 151px;
+    margin-right: 12px;
+    float: left;
+}
+.vector-title-os {
+    position: relative;
+    top: 111px;
+    border-left: 3px solid #434343;
+    height: 90px;
+    margin-right: 12px;
+    margin-left: 300px;
+}
+.vector-title-os h3.about-first-title {
+    padding-top: 15px;
+}
+.operating-system {
+    position: relative;
+    top: 91px;
+}
+.operating-system div.first-text {
+    width: 555px;
+    margin-top: 37px;
+}

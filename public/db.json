@@ -1,0 +1,37 @@
+{
+    "devices": [
+        {
+            "type": "laptop",     
+            "operating system": 55,
+            "software": 30,
+            "power": 40,
+            "cooler": 60,
+            "keyboard": 80,
+            "matrix": 180,
+            "hdd": 120,
+            "battery": 80
+        },
+        {
+            "type": "tablet",
+            "glass": 80,
+            "display": 110,
+            "matrix": 80,
+            "power": 60,
+            "speaker": 60,
+            "battery": 80,
+            "water": 60,
+            "microphone": 60
+        },
+        {
+            "type": "phone",
+            "glass": 60,
+            "display": 80,
+            "matrix": 190,
+            "power": 35,
+            "speaker": 45,
+            "battery": 45,
+            "water": 40,
+            "camera": 35
+        }
+    ]
+}

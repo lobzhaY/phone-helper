@@ -1,0 +1,13 @@
+export { default as AboutUs } from './about-us-component';
+export { default as Contact } from './contact-component';
+export { default as Guarantee } from './guarantee-component';
+export { default as FirstHelp } from './first-help-component';
+export { default as SmartWatch } from './repair-smart-watch-component';
+export { default as PhoneRepair } from './repair-phone-component';
+export { default as NotebookRepair } from './repair-notebook-component';
+export { default as LaptopRepair } from './repair-laptop-component';
+export { default as GlassRepair } from './repair-glass-component';
+export { default as MainPage } from './main-page-component';
+export { default as BrandPhone } from './brand-phone-repair-component';
+export { default as BrandLaptop } from './brand-laptop-repair-component';
+export { default as BrandNotebook } from './brand-notebook-repair-component';

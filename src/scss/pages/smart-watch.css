@@ -1,0 +1,116 @@
+.smart-watch-slider {
+    width: 1920px;
+    height: 671px;
+    border-bottom: 7px solid #434343;
+    padding-left: 79px;
+}
+.smart-watch-title {
+
+}
+.smart-watch-title p {
+    width: 841px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #434343;
+    margin-bottom: 228px;
+}
+.smart-watch-title hr {
+    width: 696px;
+    height: 7px;
+    border: none;
+    background-color: #FFB400;
+}
+.smart-watch-title h2 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #434343;
+}
+.smart-watch-info {
+    height: 1012px;
+    padding-top: 39px;
+    padding-left: 265px;
+    padding-right: 313px;
+    margin-bottom: 70px;
+}
+.smart-watch-container {
+    width: 322px;
+    height: 322px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+}
+.glass-smart {
+    top: 39px;
+}
+.screen {
+    left: 254px;
+    top: 185px;
+}
+.buttons {
+    top: 39px;
+    left: 509px;
+}
+.battery {
+    top: 332px;
+    left: 509px;
+    margin-bottom: 44px;
+}
+.board {
+    top: 185px;
+    left: 766px;
+}
+.os {
+    top: 39px;
+    left: 1020px;
+}
+.smart-watch-glass {
+    width: 280px;
+    height: 280px;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smart-watch-options {
+    position: relative;
+}
+.smart-watch-info-text {
+    width: 1017px;
+    height: 132px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #434343;
+    margin-top: 698px;
+    margin-left: 182px;
+    margin-bottom: 48px;
+}
+.smart-watch-info-text span {
+    font-weight: 500;
+}
+.smart-watch-consultation {
+    margin-left: 515px;
+}

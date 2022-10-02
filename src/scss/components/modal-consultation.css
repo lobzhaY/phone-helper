@@ -1,0 +1,92 @@
+#modal-window-consultation {
+    max-width: 1012px;
+    height: 555px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+.modal-window-consultation-image {
+    width: 368px;
+    height: 555px;
+}
+.consultation-image {
+    object-fit: contain;
+    object-position: center;
+}
+.modal-window-consultation-info {
+    margin-top: 43px;
+    margin-left: 57px;
+    margin-bottom: 69px;
+    
+}
+.modal-window-consultation-title {
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #434343;
+    margin-bottom: 18px;
+}
+.modal-window-consultation-line {
+    width: 508px;
+    height: 7px;
+    background-color: #FFB400;
+    margin-bottom: 3px;
+    border: none;
+}
+.modal-window-consultation-text {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 60px;
+    color: #434343;
+    margin-bottom: 19px;
+    margin-top: -10px
+}
+input[type="text"].modal-window-consultation-name, input[type="text"].modal-window-consultation-phone {
+    width: 517px;
+    height: 67px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 14px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 60px;
+    color: rgba(67, 67, 67, 0.5);   
+}
+.modal-window-consultation-name {
+    background: no-repeat center left 34px;
+    padding-left: 86px;
+}
+.modal-window-consultation-phone {
+    background: no-repeat center left 34px;
+    padding-left: 86px;
+}
+button.modal-window-consultation-button {
+    width: 517px;
+    height: 67px;
+    background: #FFB400;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    color: #434343;
+}
+button.modal-window-consultation-button:active {
+	line-height: 73px;
+    opacity: 0.88;
+}
+button.modal-window-consultation-button:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}

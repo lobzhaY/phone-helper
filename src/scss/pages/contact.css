@@ -1,0 +1,59 @@
+.contacts {
+    margin-top: 94px;
+    margin-left: 119px;
+    margin-bottom: 97px;
+    display: flex;
+    align-items: center;
+}
+.map {
+    width: 986px;
+    height: 664px;
+}
+.map iframe {
+    object-fit: cover;
+    object-position: center;
+}
+.map-info {
+    width: 523px;
+    height: 659;
+    margin-left: 135px;
+}
+.map-title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 49px;
+}
+.map-contacts {
+    width: 523px;
+    height: 249px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.map-contacts ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.map-contacts ul li a:visited {
+    color: #FFB400;
+}
+.map-contacts ul li a:hover {
+    font-size: 32px;
+}
+.map-contacts ul li a:active {
+    font-size: 32px;
+    line-height: 8px;
+}
+li.contact-time {
+    margin-top: 15px;
+}

@@ -1,0 +1,131 @@
+header {
+    background: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header-info {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-info-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.header-info-contacts-item {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 12px;
+}
+.header-info-contacts-img {
+    margin-right: 10px;
+}
+.header-info-contacts-text a{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 6px;
+    color: #434343;
+}
+
+.header-info-contacts-text a:visited {
+    color: #FFB400;
+}
+.header-info-contacts-text:hover a {
+    font-size: 21px;
+}
+.header-info-contacts-text:active a {
+    font-size: 21px;
+    line-height: 8px;
+}
+
+.header-info-search {
+    width: 457px;
+    height: 37px;
+    margin-right: 39px;
+}
+input[type=text] {
+    border: none;
+    width: 457px;
+    height: 37px;
+    
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    border-radius: 20px;
+    background: no-repeat center right 15px;
+    padding-left: 20px;
+}
+input[type=text]:focus {
+    color: #434343;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.header-navigation {
+    width: 100%;
+    height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 7px solid #FFB400;
+}
+
+nav {
+    width: 40%;
+    margin-right: 39px;
+}
+ul.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu li:link {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 6px;
+    color: #434343;
+}
+.menu li a:hover {
+    font-size: 32px;
+}
+.menu li a:active {
+    font-size: 32px;
+    line-height: 8px;
+}
+.menu li a:visited {
+    color: #FFB400;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 6px;
+    color: #434343;
+}
